@@ -1,4 +1,3 @@
-import styles from '../sytles/home.module.scss';
 import Head from 'next/head';
 
 export default function Home() {
@@ -7,7 +6,7 @@ export default function Home() {
       <Head>
         <title>Início | ignews</title>
       </Head>
-      <h1 className={styles.title}>
+      <h1>
         Hello World!
       </h1>  
     </>
